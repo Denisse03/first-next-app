@@ -1,6 +1,6 @@
 "use client";
 import homeStyle from "@/app/page.module.css";
-
+import aboutStyle from "@/app/about.module.css";
 export default function About() {
   return (
     <main>
@@ -20,7 +20,7 @@ export default function About() {
       <section>
         <h1>About</h1>
         <h3>Interest</h3>
-        <ul>
+        <ul className={aboutStyle.interestList}>
           <li>Coding</li>
           <li>Board Games</li>
           <li>IoT Development</li>
