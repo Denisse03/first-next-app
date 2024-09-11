@@ -17,7 +17,17 @@ export default function About() {
           </li>
         </ul>
       </nav>
-      <h1>About</h1>
+      <section>
+        <h1>About</h1>
+        <h3>Interest</h3>
+        <ul>
+          <li>Coding</li>
+          <li>Board Games</li>
+          <li>IoT Development</li>
+          <li>VR/AR</li>
+          <li>Idk</li>
+        </ul>
+      </section>
     </main>
   );
 }
