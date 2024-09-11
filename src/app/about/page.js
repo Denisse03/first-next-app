@@ -17,6 +17,7 @@ export default function About() {
           </li>
         </ul>
       </nav>
+      <h1>About</h1>
     </main>
   );
 }
