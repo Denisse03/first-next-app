@@ -1,5 +1,6 @@
 "use client";
 import homeStyle from "@/app/page.module.css";
+import Hairbrush from "@/app/components/Hairbrush";
 
 export default function Home() {
   const headerStyle = {
